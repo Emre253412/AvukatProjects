@@ -1,0 +1,12 @@
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\bin\Debug\net6.0\AvukatProjectCore.deps.json
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\bin\Debug\net6.0\AvukatProjectCore.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\bin\Debug\net6.0\AvukatProjectCore.pdb
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.csproj.AssemblyReference.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.AssemblyInfoInputs.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.AssemblyInfo.cs
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.csproj.CoreCompileInputs.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\refint\AvukatProjectCore.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\AvukatProjectCore.pdb
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProject\obj\Debug\net6.0\ref\AvukatProjectCore.dll

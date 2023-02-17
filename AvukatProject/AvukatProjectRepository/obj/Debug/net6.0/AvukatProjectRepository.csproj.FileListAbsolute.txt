@@ -1,0 +1,17 @@
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectRepository.deps.json
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectRepository.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectRepository.pdb
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectCore.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectCore.pdb
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.csproj.AssemblyReference.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.AssemblyInfoInputs.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.AssemblyInfo.cs
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.csproj.CoreCompileInputs.cache
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.csproj.CopyComplete
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\refint\AvukatProjectRepository.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.pdb
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\ref\AvukatProjectRepository.dll
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\bin\Debug\net6.0\AvukatProjectRepository.runtimeconfig.json
+C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectRepository\obj\Debug\net6.0\AvukatProjectRepository.genruntimeconfig.cache

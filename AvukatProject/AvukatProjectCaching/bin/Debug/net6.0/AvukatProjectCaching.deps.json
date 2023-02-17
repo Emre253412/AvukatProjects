@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AvukatProjectCaching/1.0.0": {
+        "runtime": {
+          "AvukatProjectCaching.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AvukatProjectCaching/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
