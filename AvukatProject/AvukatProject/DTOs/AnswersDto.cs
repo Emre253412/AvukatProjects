@@ -10,5 +10,7 @@ namespace AvukatProjectCore.DTOs
     {
         public string Answer { get; set; }
         public int QuestionsId { get; set; }
+        public int UsersId { get; set; }
+
     }
 }

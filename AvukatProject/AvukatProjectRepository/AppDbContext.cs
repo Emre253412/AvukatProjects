@@ -21,6 +21,10 @@ namespace AvukatProjectRepository
         public DbSet<Questions> Questions { get; set; }
         public DbSet<Lawyers> Lawyers { get; set; }
 
+        public object FirstOrDefault(Func<object, bool> value)
+        {
+            throw new NotImplementedException();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

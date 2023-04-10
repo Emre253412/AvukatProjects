@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4dgz1tSVNN4d8UjKBtRENmPtr5/L26376SMf8vFC++cnSjQzlKcEiUyUse4jneRmD381Dk9synB8qI75gEWbkw==",
+  "dgSpecHash": "jprl3petaCKRpWpZyKJQC2LQplbCoJo43nwxkRawGef/q8vUyYKJdRJBFLYvj3yw8BN13KCfDstPJKHgss9Qjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
+  "projectFilePath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TOSHİBA\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\TOSHİBA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

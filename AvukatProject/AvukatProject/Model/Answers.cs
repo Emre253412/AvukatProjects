@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace AvukatProjectCore.Model
 {
-    public class Answers : BaseEntity
+    public class Answers:BaseEntity
     {
         public string Answer { get; set; }
         public int QuestionsId { get; set; }
         public Questions Questions { get; set; }
+        public int UsersId { get; set; }
+        public Users Users { get; set; }
     }
 }

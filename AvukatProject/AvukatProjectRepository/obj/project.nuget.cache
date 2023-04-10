@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CKN4BWSNoDj+LmZ5h9P5+DaYYo3/8hdJPHobO0izEOv+TVPJXR31+vlXDbNEaFmb1kaEzwcw+j6oF5exkCdZGQ==",
+  "dgSpecHash": "/bveTVIDlvOSpsvybq2lSh6Jvshl/COvp2Zsult4lqzUPL+5K1mSJsq1sUE+GY6PAeMVj3F7fap0GPOoJRyw7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+  "projectFilePath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TOSHİBA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TOSHİBA\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

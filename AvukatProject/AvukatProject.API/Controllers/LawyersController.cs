@@ -2,9 +2,11 @@
 using AvukatProjectCore.DTOs;
 using AvukatProjectCore.Model;
 using AvukatProjectCore.Services;
+using AvukatProjectRepository;
 using AvukatProjectService.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AvukatProject.API.Controllers
 {
@@ -14,12 +16,16 @@ namespace AvukatProject.API.Controllers
         private readonly IMapper _mapper;
         private readonly IService<Lawyers> _lawyers;
         private readonly ILawyersService lawyersService;
-        public LawyersController(IService<Lawyers> lawyers, IMapper mapper, ILawyersService lawyersService)
+        private readonly AppDbContext _context;
+
+        public LawyersController(IMapper mapper, IService<Lawyers> lawyers, ILawyersService lawyersService, AppDbContext context)
         {
             _mapper = mapper;
             _lawyers = lawyers;
             this.lawyersService = lawyersService;
+            _context = context;
         }
+
         [HttpGet("[action]")]
         public async Task<IActionResult> GetLawyersWithCategory()
         {
@@ -63,5 +69,6 @@ namespace AvukatProject.API.Controllers
             await _lawyers.RemoveAsync(lawyer);
             return CreateActionResult(CustomResponseDto<LawyersDto>.Success(204));
         }
+       
     }
 }

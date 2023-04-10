@@ -9,50 +9,61 @@ namespace AvukatProjectRepository.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropColumn(
+                name: "UsersIdd",
+                table: "Answers");
+
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 1,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 24, 15, 39, 30, 850, DateTimeKind.Local).AddTicks(5759));
+                value: new DateTime(2023, 4, 9, 23, 41, 27, 279, DateTimeKind.Local).AddTicks(6055));
 
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 2,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 24, 15, 39, 30, 850, DateTimeKind.Local).AddTicks(5772));
+                value: new DateTime(2023, 4, 9, 23, 41, 27, 279, DateTimeKind.Local).AddTicks(6066));
 
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 3,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 24, 15, 39, 30, 850, DateTimeKind.Local).AddTicks(5774));
+                value: new DateTime(2023, 4, 9, 23, 41, 27, 279, DateTimeKind.Local).AddTicks(6067));
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.AddColumn<int>(
+                name: "UsersIdd",
+                table: "Answers",
+                type: "int",
+                nullable: false,
+                defaultValue: 0);
+
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 1,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 20, 16, 24, 40, 65, DateTimeKind.Local).AddTicks(5261));
+                value: new DateTime(2023, 4, 9, 23, 36, 37, 809, DateTimeKind.Local).AddTicks(6945));
 
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 2,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 20, 16, 24, 40, 65, DateTimeKind.Local).AddTicks(5277));
+                value: new DateTime(2023, 4, 9, 23, 36, 37, 809, DateTimeKind.Local).AddTicks(6960));
 
             migrationBuilder.UpdateData(
                 table: "Lawyers",
                 keyColumn: "Id",
                 keyValue: 3,
                 column: "CreatedDate",
-                value: new DateTime(2022, 12, 20, 16, 24, 40, 65, DateTimeKind.Local).AddTicks(5278));
+                value: new DateTime(2023, 4, 9, 23, 36, 37, 809, DateTimeKind.Local).AddTicks(6961));
         }
     }
 }

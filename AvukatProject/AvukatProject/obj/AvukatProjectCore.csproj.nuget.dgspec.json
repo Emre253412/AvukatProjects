@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {}
+    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
         "projectName": "AvukatProjectCore",
-        "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
         "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\obj\\",
+        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
           "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

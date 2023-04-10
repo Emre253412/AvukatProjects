@@ -2,8 +2,10 @@
 using AvukatProjectCore.DTOs;
 using AvukatProjectCore.Model;
 using AvukatProjectCore.Services;
+using AvukatProjectRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AvukatProject.API.Controllers
 {
@@ -12,11 +14,15 @@ namespace AvukatProject.API.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IService<Users> _service;
+        private readonly AppDbContext _context;
+       
 
-        public UsersController(IMapper mapper, IService<Users> service)
+        public UsersController(IMapper mapper, IService<Users> service, AppDbContext context)
         {
             _mapper = mapper;
             _service = service;
+            _context = context;
+
         }
         [HttpGet]
         public async Task<IActionResult> All()
@@ -56,5 +62,6 @@ namespace AvukatProject.API.Controllers
             await _service.RemoveAsync(users);
             return CreateActionResult(CustomResponseDto<UsersDto>.Success(204));
         }
+       
     }
 }

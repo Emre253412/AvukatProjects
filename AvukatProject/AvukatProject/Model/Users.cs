@@ -10,7 +10,8 @@ namespace AvukatProjectCore.Model
     {
         public string UserName { get; set; }
         public string Password { get; set; }
-        public int QuestionsId { get; set; }
-        public Questions Questions { get; set; }
+        public ICollection<Questions> Questions { get; set; }
+        public ICollection<Answers> Answers { get; set; }
+
     }
 }

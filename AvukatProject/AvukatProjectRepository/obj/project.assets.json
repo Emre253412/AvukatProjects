@@ -2024,24 +2024,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TOSHİBA\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {}
+    "C:\\Users\\TOSHİBA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+      "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
       "projectName": "AvukatProjectRepository",
-      "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+      "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
       "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProjectRepository\\obj\\",
+      "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
         "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2049,15 +2044,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
-              "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
+            "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+              "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
             }
           }
         }
@@ -2103,7 +2097,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

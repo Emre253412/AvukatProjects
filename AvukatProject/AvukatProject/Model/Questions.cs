@@ -9,9 +9,12 @@ namespace AvukatProjectCore.Model
     public class Questions : BaseEntity
     {
         public string Question { get; set; }
-        public int LawyersId { get; set; }
+        public int? LawyersId { get; set; }
+        public int UsersId { get; set; }
         public Lawyers Lawyers { get; set; }
-        public ICollection<Users> Users { get; set; }
+        public Users Users { get; set; }
         public ICollection<Answers> Answers { get; set; }
+        public ICollection<Oppressions> Oppressions { get; set; }
+
     }
 }

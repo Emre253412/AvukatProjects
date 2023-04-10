@@ -10,3 +10,15 @@ C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectCaching\obj\Debug\net6
 C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\refint\AvukatProjectCaching.dll
 C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.pdb
 C:\Users\TOSHİBA\Source\Repos\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\ref\AvukatProjectCaching.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\bin\Debug\net6.0\AvukatProjectCaching.deps.json
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\bin\Debug\net6.0\AvukatProjectCaching.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\bin\Debug\net6.0\AvukatProjectCaching.pdb
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.csproj.AssemblyReference.cache
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.AssemblyInfoInputs.cache
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.AssemblyInfo.cs
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.csproj.CoreCompileInputs.cache
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\refint\AvukatProjectCaching.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\AvukatProjectCaching.pdb
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProjectCaching\obj\Debug\net6.0\ref\AvukatProjectCaching.dll

@@ -68,9 +68,14 @@ namespace AvukatProjectRepository.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UsersId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("QuestionsId");
+
+                    b.HasIndex("UsersId");
 
                     b.ToTable("Answers");
                 });
@@ -169,7 +174,7 @@ namespace AvukatProjectRepository.Migrations
                             Id = 1,
                             About = "Ceza Hukukçusu",
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 12, 24, 15, 46, 39, 230, DateTimeKind.Local).AddTicks(8289),
+                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(434),
                             Mail = "emreuuguz@gmail.com",
                             Name = "Emre Uğuz",
                             Password = "1234",
@@ -180,7 +185,7 @@ namespace AvukatProjectRepository.Migrations
                             Id = 2,
                             About = "Medeni Hukukçusu",
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 12, 24, 15, 46, 39, 230, DateTimeKind.Local).AddTicks(8307),
+                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(446),
                             Mail = "cagrisenturk@gmail.com",
                             Name = "Çağrı Şentürk",
                             Password = "12324",
@@ -191,12 +196,39 @@ namespace AvukatProjectRepository.Migrations
                             Id = 3,
                             About = "Borçlar Hukukçusu",
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2022, 12, 24, 15, 46, 39, 230, DateTimeKind.Local).AddTicks(8310),
+                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(448),
                             Mail = "hakanozdemır@gmail.com",
                             Name = "Hakan Özdemir",
                             Password = "123444",
                             Photograph = "asd"
                         });
+                });
+
+            modelBuilder.Entity("AvukatProjectCore.Model.Oppressions", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Oppression")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuestionsId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuestionsId");
+
+                    b.ToTable("Oppressions");
                 });
 
             modelBuilder.Entity("AvukatProjectCore.Model.Questions", b =>
@@ -210,7 +242,7 @@ namespace AvukatProjectRepository.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("LawyersId")
+                    b.Property<int?>("LawyersId")
                         .HasColumnType("int");
 
                     b.Property<string>("Question")
@@ -221,9 +253,14 @@ namespace AvukatProjectRepository.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UsersId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("LawyersId");
+
+                    b.HasIndex("UsersId");
 
                     b.ToTable("Questions");
                 });
@@ -243,9 +280,6 @@ namespace AvukatProjectRepository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("QuestionsId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
@@ -255,8 +289,6 @@ namespace AvukatProjectRepository.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("QuestionsId");
 
                     b.ToTable("Users");
                 });
@@ -269,7 +301,15 @@ namespace AvukatProjectRepository.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("AvukatProjectCore.Model.Users", "Users")
+                        .WithMany("Answers")
+                        .HasForeignKey("UsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Questions");
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("AvukatProjectCore.Model.Lawyers", b =>
@@ -283,26 +323,32 @@ namespace AvukatProjectRepository.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("AvukatProjectCore.Model.Questions", b =>
-                {
-                    b.HasOne("AvukatProjectCore.Model.Lawyers", "Lawyers")
-                        .WithMany("Questions")
-                        .HasForeignKey("LawyersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Lawyers");
-                });
-
-            modelBuilder.Entity("AvukatProjectCore.Model.Users", b =>
+            modelBuilder.Entity("AvukatProjectCore.Model.Oppressions", b =>
                 {
                     b.HasOne("AvukatProjectCore.Model.Questions", "Questions")
-                        .WithMany("Users")
+                        .WithMany("Oppressions")
                         .HasForeignKey("QuestionsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("AvukatProjectCore.Model.Questions", b =>
+                {
+                    b.HasOne("AvukatProjectCore.Model.Lawyers", "Lawyers")
+                        .WithMany("Questions")
+                        .HasForeignKey("LawyersId");
+
+                    b.HasOne("AvukatProjectCore.Model.Users", "Users")
+                        .WithMany("Questions")
+                        .HasForeignKey("UsersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lawyers");
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("AvukatProjectCore.Model.Category", b =>
@@ -319,7 +365,14 @@ namespace AvukatProjectRepository.Migrations
                 {
                     b.Navigation("Answers");
 
-                    b.Navigation("Users");
+                    b.Navigation("Oppressions");
+                });
+
+            modelBuilder.Entity("AvukatProjectCore.Model.Users", b =>
+                {
+                    b.Navigation("Answers");
+
+                    b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618
         }
