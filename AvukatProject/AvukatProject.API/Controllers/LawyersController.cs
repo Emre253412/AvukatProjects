@@ -25,12 +25,7 @@ namespace AvukatProject.API.Controllers
             this.lawyersService = lawyersService;
             _context = context;
         }
-
-        [HttpGet("[action]")]
-        public async Task<IActionResult> GetLawyersWithCategory()
-        {
-            return CreateActionResult(await lawyersService.GetLawyersWithCategory());
-        }
+        
         [HttpGet]
         public async Task<IActionResult> All()
         {
@@ -40,13 +35,29 @@ namespace AvukatProject.API.Controllers
             return CreateActionResult(CustomResponseDto<List<LawyersDto>>.Success(200, lawyerDtos));
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<ActionResult<LawyersDto>> GetLawyerById(int id)
         {
+            var lawyer = await _context.Lawyers.FindAsync(id);
 
-            var lawyer = await _lawyers.GetByIdAsync(id);
-            var lawyerDtos = _mapper.Map<List<LawyersDto>>(lawyer);
-            return CreateActionResult(CustomResponseDto<List<LawyersDto>>.Success(200, lawyerDtos));
+            if (lawyer == null)
+            {
+                return NotFound();
+            }
+
+            var lawyerDto = new LawyersDto
+            {
+                Id = lawyer.Id,
+                Name = lawyer.Name,
+                Mail = lawyer.Mail,
+                About = lawyer.About,
+                Photograph = lawyer.Photograph,
+                Password = lawyer.Password,
+                CategoryId = lawyer.CategoryId
+            };
+
+            return Ok(lawyerDto);
         }
+
         [HttpPost]
         public async Task<IActionResult> Save(LawyersDto lawyersDto)
         {
@@ -69,6 +80,32 @@ namespace AvukatProject.API.Controllers
             await _lawyers.RemoveAsync(lawyer);
             return CreateActionResult(CustomResponseDto<LawyersDto>.Success(204));
         }
-       
+
+        [HttpGet("{id}/categories")]
+        public async Task<ActionResult<IEnumerable<CategoryDto>>> GetCategoriesByLawyerId(int id)
+        {
+            var lawyer = await _context.Lawyers.FindAsync(id);
+
+            if (lawyer == null)
+            {
+                return NotFound();
+            }
+
+            var categories = await _context.Categories
+                .Where(c => c.Lawyers.Any(l => l.Id == id))
+                .Select(c => new CategoryDto
+                {
+                    Id = c.Id,
+                    Name = c.Name
+                })
+                .ToListAsync();
+
+            if (!categories.Any())
+            {
+                return NoContent();
+            }
+
+            return Ok(categories);
+        }
     }
 }

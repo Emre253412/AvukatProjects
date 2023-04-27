@@ -174,7 +174,7 @@ namespace AvukatProjectRepository.Migrations
                             Id = 1,
                             About = "Ceza Hukukçusu",
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(434),
+                            CreatedDate = new DateTime(2023, 4, 20, 15, 12, 20, 964, DateTimeKind.Local).AddTicks(5412),
                             Mail = "emreuuguz@gmail.com",
                             Name = "Emre Uğuz",
                             Password = "1234",
@@ -185,7 +185,7 @@ namespace AvukatProjectRepository.Migrations
                             Id = 2,
                             About = "Medeni Hukukçusu",
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(446),
+                            CreatedDate = new DateTime(2023, 4, 20, 15, 12, 20, 964, DateTimeKind.Local).AddTicks(5424),
                             Mail = "cagrisenturk@gmail.com",
                             Name = "Çağrı Şentürk",
                             Password = "12324",
@@ -196,7 +196,7 @@ namespace AvukatProjectRepository.Migrations
                             Id = 3,
                             About = "Borçlar Hukukçusu",
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2023, 4, 10, 0, 56, 50, 619, DateTimeKind.Local).AddTicks(448),
+                            CreatedDate = new DateTime(2023, 4, 20, 15, 12, 20, 964, DateTimeKind.Local).AddTicks(5426),
                             Mail = "hakanozdemır@gmail.com",
                             Name = "Hakan Özdemir",
                             Password = "123444",
@@ -215,10 +215,13 @@ namespace AvukatProjectRepository.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Oppression")
+                    b.Property<double>("Oppression")
+                        .HasColumnType("float");
+
+                    b.Property<int>("OppressionQuestionId")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuestionsId")
+                    b.Property<int>("QuestionId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
@@ -226,7 +229,7 @@ namespace AvukatProjectRepository.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("QuestionsId");
+                    b.HasIndex("QuestionId");
 
                     b.ToTable("Oppressions");
                 });
@@ -325,13 +328,13 @@ namespace AvukatProjectRepository.Migrations
 
             modelBuilder.Entity("AvukatProjectCore.Model.Oppressions", b =>
                 {
-                    b.HasOne("AvukatProjectCore.Model.Questions", "Questions")
+                    b.HasOne("AvukatProjectCore.Model.Questions", "Question")
                         .WithMany("Oppressions")
-                        .HasForeignKey("QuestionsId")
+                        .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Questions");
+                    b.Navigation("Question");
                 });
 
             modelBuilder.Entity("AvukatProjectCore.Model.Questions", b =>

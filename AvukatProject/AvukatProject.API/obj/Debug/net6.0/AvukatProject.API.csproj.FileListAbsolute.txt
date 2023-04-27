@@ -139,3 +139,7 @@ C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\obj\Debug\net6.
 C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\obj\Debug\net6.0\AvukatProject.API.pdb
 C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\obj\Debug\net6.0\AvukatProject.API.genruntimeconfig.cache
 C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\obj\Debug\net6.0\ref\AvukatProject.API.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\TOSHİBA\Desktop\Avukat\AvukatProject\AvukatProject.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

@@ -20,6 +20,8 @@ namespace AvukatProjectRepository
         public DbSet<Answers> Answers { get; set; }
         public DbSet<Questions> Questions { get; set; }
         public DbSet<Lawyers> Lawyers { get; set; }
+        public DbSet<Oppressions> Oppressions { get; set; }
+
 
         public object FirstOrDefault(Func<object, bool> value)
         {
