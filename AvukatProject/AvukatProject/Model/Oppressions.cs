@@ -8,8 +8,8 @@ namespace AvukatProjectCore.Model
 {
     public class Oppressions:BaseEntity
     {
-        public int Oppression { get; set; }
-        public int QuestionsId { get; set; }
-        public Questions Questions { get; set; }
+        public double Oppression { get; set; }
+        public int OppressionQuestionId { get; set; }
+        public Questions Question { get; set; }
     }
 }

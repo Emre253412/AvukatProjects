@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj": {}
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj",
         "projectName": "AvukatProject.API",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject.API\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject.API\\AvukatProject.API.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
-                "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj"
+              "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
+                "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj"
               }
             }
           }
@@ -44,6 +44,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -53,6 +65,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -74,21 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
         "projectName": "AvukatProjectRepository",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +118,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
-                "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
+              "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+                "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
               }
             }
           }
@@ -118,6 +134,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -131,6 +159,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -149,21 +181,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
         "projectName": "AvukatProjectService",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectService\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,8 +209,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
-                "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj"
+              "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
+                "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj"
               }
             }
           }
@@ -193,9 +225,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -214,21 +262,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
         "projectName": "AvukatProjectCore",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -253,6 +301,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "pythonnet": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -269,7 +339,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

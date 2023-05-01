@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj": {}
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj",
         "projectName": "AvukatProjectCaching",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProjectCaching\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectCaching\\AvukatProjectCaching.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectCaching\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

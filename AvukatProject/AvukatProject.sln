@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvukatProjectCore", "AvukatProject\AvukatProjectCore.csproj", "{EFD9A625-15E3-4338-A4B4-9792125D8FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvukatProjectCore", "AvukatProject\AvukatProjectCore.csproj", "{EFD9A625-15E3-4338-A4B4-9792125D8FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvukatProjectRepository", "AvukatProjectRepository\AvukatProjectRepository.csproj", "{FFCC49FF-3656-4ED0-84DD-741CCE848F29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvukatProjectRepository", "AvukatProjectRepository\AvukatProjectRepository.csproj", "{FFCC49FF-3656-4ED0-84DD-741CCE848F29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvukatProjectService", "AvukatProjectService\AvukatProjectService.csproj", "{F699D279-E066-4D09-8AFD-C5C796D9018C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvukatProjectService", "AvukatProjectService\AvukatProjectService.csproj", "{F699D279-E066-4D09-8AFD-C5C796D9018C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvukatProject.API", "AvukatProject.API\AvukatProject.API.csproj", "{667F8A5A-CE00-4C2F-AD5E-10A6956194DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvukatProject.API", "AvukatProject.API\AvukatProject.API.csproj", "{667F8A5A-CE00-4C2F-AD5E-10A6956194DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvukatProjectCaching", "AvukatProjectCaching\AvukatProjectCaching.csproj", "{37FC94E9-8AD4-4343-A4C9-408058E017B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvukatProjectCaching", "AvukatProjectCaching\AvukatProjectCaching.csproj", "{37FC94E9-8AD4-4343-A4C9-408058E017B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

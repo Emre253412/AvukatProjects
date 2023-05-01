@@ -5,6 +5,7 @@ using AvukatProjectCore.Services;
 using AvukatProjectRepository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace AvukatProject.API.Controllers
 {
@@ -18,20 +19,18 @@ namespace AvukatProject.API.Controllers
             _context = context;
             
         }
-
         [HttpPost]
-        public IActionResult PostQuestion(QuestionsDto questionDto)
+        public async Task<ActionResult> AddQuestion(QuestionsDto questionDto)
         {
-            // SoruDto sınıfından soru nesnesi oluşturulması
-            var question = new Questions
+            // Convert DTO to entity object
+            var question = new Questions()
             {
                 Question = questionDto.Question,
-                UsersId = questionDto.UsersId,
-                LawyersId = questionDto.LawyersId
+                LawyersId = questionDto.LawyersId,
+                UsersId = questionDto.UsersId
             };
-
-            // Avukat seçildiyse avukat nesnesi oluşturulması ve soruya atanması
-            if (question.LawyersId.HasValue)
+            //Avukat seçildiyse avukat nesnesi oluşturulması ve soruya atanması
+                if (question.LawyersId.HasValue)
             {
                 var lawyer = _context.Lawyers.Find(question.LawyersId.Value);
                 if (lawyer == null)
@@ -47,14 +46,35 @@ namespace AvukatProject.API.Controllers
             {
                 return NotFound("Kullanıcı bulunamadı");
             }
-            question.Users = user;
-
-            // Sorunun veritabanına kaydedilmesi
+            PythonCode model = new PythonCode();
+            var result = model.CallPyFunction(question);
             _context.Questions.Add(question);
-            _context.SaveChanges();
+            _context.Oppressions.Add(result);
 
-            return Ok(question);
+            //var similarQuestion = await _context.Oppressions.FirstOrDefaultAsync(s => s.Question.Id == question.Id);
+
+            //if (similarQuestion != null)
+            //{
+            //    // Retrieve the answer for the similar question
+            //    var similarAnswer = await _context.Answers.FirstOrDefaultAsync(a => a.QuestionsId == similarQuestion.OppressionQuestionId);
+
+            //    // Save the answer for the new question
+            //    var answer = new Answers()
+            //    {
+            //        Answer = similarAnswer.Answer,
+            //        QuestionsId = question.Id,
+            //        UsersId = questionDto.UsersId
+            //    };
+
+            //    _context.Answers.Add(answer);
+            //}
+
+
+            await _context.SaveChangesAsync();
+
+            return Ok();
         }
+        
         [HttpGet("{lawyerId}")]
         public IActionResult Get(int lawyerId)
         {
