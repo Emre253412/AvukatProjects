@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AvukatProjectCore.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,6 @@ namespace AvukatProjectCore.DTOs
     {
         public double Oppression { get; set; }
         public int OppressionQuestionId { get; set; }
-        public int QuestionId { get; set; }
+        public Questions Question { get; set; }
     }
 }

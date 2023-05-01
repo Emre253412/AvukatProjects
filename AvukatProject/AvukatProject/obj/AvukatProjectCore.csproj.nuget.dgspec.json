@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {}
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
         "projectName": "AvukatProjectCore",
-        "projectPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
-        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOSHİBA\\Desktop\\Avukat\\AvukatProject\\AvukatProject\\obj\\",
+        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +44,21 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "pythonnet": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [
@@ -65,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,6 +5,7 @@ using AvukatProjectCore.Services;
 using AvukatProjectRepository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace AvukatProject.API.Controllers
 {
@@ -45,27 +46,30 @@ namespace AvukatProject.API.Controllers
             {
                 return NotFound("Kullanıcı bulunamadı");
             }
+            PythonCode model = new PythonCode();
+            var result = model.CallPyFunction(question);
             _context.Questions.Add(question);
-            await _context.SaveChangesAsync();
-            var similarQuestion = await _context.Oppressions.FirstOrDefaultAsync(s => s.Question.Id == question.Id);
+            _context.Oppressions.Add(result);
 
-            if (similarQuestion != null)
-            {
-                // Retrieve the answer for the similar question
-                var similarAnswer = await _context.Answers.FirstOrDefaultAsync(a => a.QuestionsId == similarQuestion.OppressionQuestionId);
+            //var similarQuestion = await _context.Oppressions.FirstOrDefaultAsync(s => s.Question.Id == question.Id);
 
-                // Save the answer for the new question
-                var answer = new Answers()
-                {
-                    Answer = similarAnswer.Answer,
-                    QuestionsId = question.Id,
-                    UsersId = questionDto.UsersId
-                };
+            //if (similarQuestion != null)
+            //{
+            //    // Retrieve the answer for the similar question
+            //    var similarAnswer = await _context.Answers.FirstOrDefaultAsync(a => a.QuestionsId == similarQuestion.OppressionQuestionId);
 
-                _context.Answers.Add(answer);
-            }
+            //    // Save the answer for the new question
+            //    var answer = new Answers()
+            //    {
+            //        Answer = similarAnswer.Answer,
+            //        QuestionsId = question.Id,
+            //        UsersId = questionDto.UsersId
+            //    };
 
-           
+            //    _context.Answers.Add(answer);
+            //}
+
+
             await _context.SaveChangesAsync();
 
             return Ok();
