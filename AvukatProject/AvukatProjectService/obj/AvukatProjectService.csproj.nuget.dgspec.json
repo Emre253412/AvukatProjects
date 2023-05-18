@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {}
+    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
+    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+        "projectUniqueName": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
         "projectName": "AvukatProjectRepository",
-        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
-        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\obj\\",
+        "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj",
+        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
-                "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
+              "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+                "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj"
               }
             }
           }
@@ -91,21 +91,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
+    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
+        "projectUniqueName": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
         "projectName": "AvukatProjectService",
-        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
-        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectService\\obj\\",
+        "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectService\\AvukatProjectService.csproj",
+        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,8 +119,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
-                "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj"
+              "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj": {
+                "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProjectRepository\\AvukatProjectRepository.csproj"
               }
             }
           }
@@ -172,21 +172,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
+    "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "projectUniqueName": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
         "projectName": "AvukatProjectCore",
-        "projectPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
-        "packagesPath": "C:\\Users\\0meng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0meng\\source\\repos\\AvukatProjects\\AvukatProject\\AvukatProject\\obj\\",
+        "projectPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\AvukatProjectCore.csproj",
+        "packagesPath": "C:\\Users\\TOSHİBA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TOSHİBA\\Source\\Repos\\AvukatProjects\\Yeni klasör\\AvukatProject\\AvukatProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0meng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TOSHİBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,7 +249,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

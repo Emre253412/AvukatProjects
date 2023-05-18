@@ -4,9 +4,12 @@ using AvukatProjectCore.Model;
 using AvukatProjectCore.Services;
 using AvukatProjectRepository;
 using AvukatProjectService.Services;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace AvukatProject.API.Controllers
 {
@@ -25,7 +28,35 @@ namespace AvukatProject.API.Controllers
             this.lawyersService = lawyersService;
             _context = context;
         }
-        
+        [Authorize]
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Index(Lawyers lawyers)
+        {
+
+            var datavalue = _context.Lawyers.FirstOrDefault(x => x.Name == lawyers.Name && x.Password == lawyers.Password);
+            if (datavalue != null)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name,lawyers.Name)
+                };
+                var useridentity = new ClaimsIdentity(claims, "a");
+                ClaimsPrincipal user = new ClaimsPrincipal(useridentity);
+                await HttpContext.SignInAsync(user);
+                return RedirectToAction("Index");//yolu ver girceğin
+            }
+            else
+            {
+                return View();
+            }
+
+        }
+
+        private IActionResult View()
+        {
+            throw new NotImplementedException();
+        }
         [HttpGet]
         public async Task<IActionResult> All()
         {
